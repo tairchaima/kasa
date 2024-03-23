@@ -3,7 +3,7 @@
 .footer {
     height: 209px;
     background-color: #000000;
-    color: #fff;
+    color: #FFF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,13 +22,13 @@
 }
 
 @media screen and (max-width: 600px) {
-.content {
-font-size: 12px;
-line-height: 17px;
-width: 133px;
-}
+    .content {
+        font-size: 12px;
+        line-height: 17px;
+        width: 133px;
+    }
 
-.mobile-text {
-    display: block;
-}
+    .mobile-text {
+        display: block;
+    }
 }
