@@ -10,7 +10,7 @@ const LogementsCard = ({ id, title, cover }) => {
   };
 
   return (
-    <div className="logements-card" data-id={id} onClick={handleCardClick}>
+    <div className="logements-card" data-id={id} onClick={handleCardClick}> 
       <div className="card-cover">
         <img src={cover} alt={title} />
         <div className="card-content">
